@@ -1,0 +1,16 @@
+The data are 73,115 observations light beer purchases in the US. These observations are taken from the Nielsen Home-Scan database.
+
+LightBeer.RData contains:
+
+* household: an identifier of the purchasing household
+* upc_description: details on the purchased item (e.g., a 6-pack)
+* quantity: the number of items purchased
+* beer_brand:  Bud Light, Busch Light, Coors Light, Miller Lite, or Natural Light.
+* beer_spend:  total dollar value of purchase.
+* beer_floz: total volume of beer, in fluid ounces.
+* price_floz: price per fl.oz. (i.e., beer_spend/beer_floz)
+* container_descr: the type of container. 
+* promotion: Whether the item was promoted (coupon or otherwise). 
+* market: Scantrack market (or state if rural)
+* emographic data, including buyer type (married couple, male, or female), income, occupation, education, age, and whether the household has a dishwasher or a microwave.
+
